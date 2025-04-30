@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Helena Corrêa - Social Media</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Link para a fonte Dancing Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
     <style>
         body {
             background-image: url('assets/bg.png');
             /* imagem de fundo */
             background-size: cover;
             background-position: center;
+        }
+
+        /* Aplica a fonte Dancing Script ao título */
+        .social-media-title {
+            font-family: 'Dancing Script', cursive;
         }
     </style>
 </head>
@@ -22,15 +31,15 @@
         <div class="flex flex-col items-center mb-10">
             <img src="assets/sorriso-fechado-avatar.webp" alt="Helena"
                 class="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover bg-[#8e433c]" />
-            <h1 class="mt-4 font-bold text-lg md:text-2xl uppercase tracking-wide text-center">Helena Corrêa</h1>
-            <p class="italic text-center text-lg md:text-xl">Social Media Estratégico</p>
+            <h1 class="mt-4 font-bold text-lg md:text-2xl uppercase tracking-wide text-center ">Helena Corrêa</h1>
+            <p class="italic text-center text-4xl md:text-xl social-media-title">Social Media Estratégico</p>
         </div>
 
         <!-- Botões -->
         <div class="space-y-6 w-full px-2">
             <!-- Botão 1 -->
             <a href="#"
-                class="bg-[#793737] rounded-xl flex justify-between items-center p-4 md:p-6 shadow-lg transition hover:scale-[1.02]">
+                class="bg-[#793737] rounded-xl flex justify-between items-center p-3 md:p-6 shadow-lg transition hover:scale-[1.02]">
                 <div class="font-bold text-left text-md md:text-lg leading-tight">
                     <p>CONTATO</p>
                     <p>VIA WHATSAPP</p>
@@ -40,7 +49,7 @@
 
             <!-- Botão 2 -->
             <a href="#"
-                class="bg-[#793737] rounded-xl flex justify-between items-center p-4 md:p-6 shadow-lg transition hover:scale-[1.02]">
+                class="bg-[#793737] rounded-xl flex justify-between items-center p-3 md:p-6 shadow-lg transition hover:scale-[1.02]">
                 <div class="font-bold text-left text-md md:text-lg leading-tight">
                     <p>FORMS PARA</p>
                     <p>ATENDIMENTOS</p>
@@ -50,7 +59,7 @@
 
             <!-- Botão 3 -->
             <a href="#"
-                class="bg-[#793737] rounded-xl flex justify-between items-center p-4 md:p-6 shadow-lg transition hover:scale-[1.02]">
+                class="bg-[#793737] rounded-xl flex justify-between items-center p-3 md:p-6 shadow-lg transition hover:scale-[1.02]">
                 <div class="font-bold text-left text-md md:text-lg leading-tight">
                     <p>MENTORIAS</p>
                 </div>
@@ -59,7 +68,7 @@
         </div>
 
         <!-- Frase final -->
-        <p class="mt-10 italic text-sm md:text-base text-center px-4">Não é sobre postar, é sobre planejar !</p>
+        <p class="mt-10 italic text-2xl md:text-base text-center px-4 social-media-title">Não é sobre postar, é sobre planejar !</p>
     </div>
 </body>
 
